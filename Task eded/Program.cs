@@ -30,23 +30,17 @@ namespace Task_eded
             #endregion Task1
             #region Task2
 
+            int sum = 0;
+            for(int i=0;int<arr.Length;i++ )
+            {
+                if (arr[i] % 3 == 0)
+                {
+                    sum += arr[i];
+                }
+            }
 
-
-
-            //int sum = 0;
-            //int[] numbers= { 13,27,33,35,39};
-            //for (int i = 0; i < 100; i++)
-            //{
-            //    if (i % 3 == 0)
-            //    {
-                   
-            //       sum += i;
-              
-            //    }
-            //    Console.WriteLine("3-e bolunenleri cemle" + sum);
-            //}
-            
-
+            int sum = arr(12, 45, 9, 2);
+            Console.WriteLine();
 
             #endregion Task2
             #region Task3
@@ -59,10 +53,10 @@ namespace Task_eded
             //    a=a / 10;
             //    count++;
 
-                
+
             //}
-            
-            
+
+
             //Console.WriteLine(count);
 
 
